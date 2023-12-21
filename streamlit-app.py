@@ -8,6 +8,9 @@ from makeskymap import make_skymap
 from copy import deepcopy
 import glob, os
 
+# -- kludge to fix pycbc error
+import pycbc.libutils
+
 import matplotlib
 matplotlib.use('Agg')
 
